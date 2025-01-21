@@ -1,0 +1,91 @@
+
+
+*{
+    font-family: "Germania One";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c7b594;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sound{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#sound{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#gameover{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#youwon{
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    display: none;
+}
+
+#youlose{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+
+#restart{
+    position: absolute;
+    top: 310px;
+    left: 155px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color: #FFF;
+}
+
+#breakout{
+    border: 1px solid #0ff;
+}
+
+.game-container{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #0ff;
+    background-color: #f0f0f0;
+}
+
+.game-stats{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.25em;
+    color: #FFF;
+}
+
+.game-stats img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
